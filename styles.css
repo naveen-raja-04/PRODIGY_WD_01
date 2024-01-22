@@ -1,0 +1,50 @@
+body {
+     margin :0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    color: #66ccff;
+  }
+  .home01 h2{
+    text-transform: capitalize;
+    color: rgb(36, 104, 240);
+  }  
+  .home01{
+  margin-top: 48px;
+    align-content: center;
+    background-color: #efc817;
+    justify-content: center;
+    padding: 10px;
+
+  }
+  .content{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: auto;
+    padding:20px;
+    word-spacing: .2em;
+    letter-spacing: .1em;
+    font-size: 25px;
+    background-color: aqua;
+  }
+  .content h2{
+    text-align: center;
+  }

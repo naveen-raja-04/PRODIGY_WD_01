@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar{
+    background-color: rgb(153, 153, 244);
+   
+   font-family: 'Tilt Neon', sans-serif;
+   height: 100vh;
+   font-family: 'Indie Flower', cursive;
+   transition:.3s ease-in-out;
+   
+}
+.sidebar nav{
+   padding: 40px;
+}
+.sidebar nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 7px;
+    margin: 5px;
+    border-radius: 20px;
+    padding-left: 5px;
+    
+}
+.main{
+    background-color:rgb(241, 183, 241);
+    width: 100vw;
+    padding: 3px;
+    transition:.3s ease-in ;
+
+}
+.main h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: rgb(14, 16, 114);
+    font-style: italic;
+}
+.main span{
+    color:rgb(78, 78, 247)
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    height:75vh;
+    width: 75vw;
+    margin: 50px auto;
+    background-color: white;  
+    display: flex;
+    justify-content: space-around ;
+    border-radius: 20px;
+    box-shadow: 10px 3px 3px  rgb(62, 60, 60);
+    font-family: 'Indie Flower', cursive;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devinfo span{
+    color:red;
+}
+.devpic img{
+    height: 55vh;
+    width: 25vw;
+   
+}
+.hello{
+    font-size: 60px;
+}
+.name{
+font-size:45px ;
+font-weight: bolder;
+}
+
+.job{
+    font-size: 25px;
+}
+
+.buttons{
+    padding: 15px;
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 18px;
+    background-color: rgb(202, 147, 253);
+    background-color: rgb(225, 225, 181);
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: 'Alumni Sans Collegiate One', sans-serif; 
+    font-family: 'Young Serif', serif;
+    font-weight: bolder;
+
+    
+}
+.sidebar nav ul li:hover{
+    background-color: rgb(148, 47, 243);
+   
+}
+.buttons button:hover{
+    background-color: rgb(124, 124, 249);
+    color: aliceblue;
+    transition-delay: .2s;
+}
+.contactdet  {
+    
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-color: black;
+    column-rule-style: dotted;  
+    padding: 20px;
+    column-rule: solid black 4px;
+    column-rule-style: double;
+    column-rule-width: 6px;
+}
+.contactdet a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.follow span{
+  color: black;
+  text-decoration:underline;
+}
+
+.my-form{
+    margin-left: 350px;
+   font-weight: bolder;
+   padding-top: 30px;
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+    
+}
+.contactform h1{
+    
+    color: rgb(26, 218, 33);
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 20px;  
+    
+    /*this is for comments we can use this for including comments*/
+}
+#emailHelp{
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px;
+}
+.form-check{
+    margin-left: 400px;
+    font-weight: bolder; 
+    font-size: 20px;  
+    padding-top: 20px; 
+}
+.contactform button{
+    margin-left: 450px;
+    font-weight: bolder;
+    margin-top: 20px; 
+    padding: 10px;
+    border-radius: 25px;
+    width: 100px;
+    font-size: 16px;
+   
+}
+.contactform button:hover{
+    color: rgb(192, 78, 245);
+    background-color: rgb(17, 227, 192);
+}
+body{
+    background-color: rgb(147, 248, 248);
+}
+.my-form input{
+    width: 18vw;
+    padding: 5px;
+    font-size:15px;
+    color: rgb(223, 21, 162);
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+    
+.contactform{
+    width:80vw;
+    height: 38vw;
+    background-color:rgb(239, 237, 203);
+    margin:16vh;
+    border-radius: 25px 0px;
+    border: rgb(252, 241, 27) 5px solid;
+    box-shadow: 13px 0px 15px;   
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 120px;
+}
+
+.sidebarGo{
+    transform: translate(-200px , 0px);
+    position: absolute;
+}
+
+
+
+  @media (max-width:1000px) {
+    .body{
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+}
